@@ -33,7 +33,7 @@ var education = {
             "name": "Nova Southeastern University",
             "location": "Fort Lauderdale, FL",
             "degree":   "Masters",
-            "majors":   "CS",
+            "majors":   ["CS"],
             "dates":    2013,
             "url":  "www.nova.edu"
         },
@@ -41,7 +41,7 @@ var education = {
             "name": "Eckerd Collage",
             "location": "Saint Petersburg, FL",
             "degree":   "BA",
-            "majors":   "CS",
+            "majors":   ["CS"],
             "dates":    2003,
             "url":  "www.eckerd.edu"
         }
@@ -50,7 +50,7 @@ var education = {
         {
             "title": "Javascript Crash Course",
             "school": "Udacity",
-            "dates": "2014",
+            "date": 2014,
             "url" : "http://www.udacity.com/course/ud804"
         }
     ],
@@ -78,6 +78,21 @@ var work = {
             " fromage taleggio manchego dolcelatte cheese on toast caerphilly. " +
             "Cheese slices queso manchego cauliflower cheese bocconcini port-" +
             "salut mascarpone mascarpone. Squirty cheese queso."
+        }
+    ],
+    "display": function () {}
+};
+
+var projects = {
+    "projects": [
+        {
+            "title": "Sample Project 1",
+            "dates": "2014",
+            "description": "Cauliflower cheese caerphilly swiss. Jarlsberg goat" +
+            " fromage taleggio manchego dolcelatte cheese on toast caerphilly. " +
+            "Cheese slices queso manchego cauliflower cheese bocconcini port-" +
+            "salut mascarpone mascarpone. Squirty cheese queso.",
+            "images": ["./images/197x148.gif", "./images/197x148.gif"]
         }
     ],
     "display": function () {}
