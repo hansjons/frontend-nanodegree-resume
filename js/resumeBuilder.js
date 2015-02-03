@@ -57,3 +57,28 @@ var education = {
     "display": function () {}
 };
 
+var work = {
+    "jobs": [
+        {
+            "employer": "Planet Express",
+            "title":    "Delivery Boy",
+            "location": "Brooklyn, NY",
+            "dates":    "January 2000 - Future",
+            "description":  "Cauliflower cheese caerphilly swiss. Jarlsberg goat" +
+            " fromage taleggio manchego dolcelatte cheese on toast caerphilly. " +
+            "Cheese slices queso manchego cauliflower cheese bocconcini port-" +
+            "salut mascarpone mascarpone. Squirty cheese queso."
+        },
+        {
+            "employer": "Panucci-s Pizza",
+            "title":    "Delivery Boy",
+            "location": "Manhattan, NY",
+            "dates":    "1998 - December 31, 1999",
+            "description":  "Cauliflower cheese caerphilly swiss. Jarlsberg goat" +
+            " fromage taleggio manchego dolcelatte cheese on toast caerphilly. " +
+            "Cheese slices queso manchego cauliflower cheese bocconcini port-" +
+            "salut mascarpone mascarpone. Squirty cheese queso."
+        }
+    ],
+    "display": function () {}
+};
