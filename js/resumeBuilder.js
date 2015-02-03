@@ -53,6 +53,7 @@ var education = {
             "dates": "2014",
             "url" : "http://www.udacity.com/course/ud804"
         }
-    ]
-}
+    ],
+    "display": function () {}
+};
 
