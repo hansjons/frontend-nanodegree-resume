@@ -14,7 +14,7 @@ var bio = {
             "email": "john@example.com",
             "github": "johndoe",
             "twitter": "@johndoe",
-            "location": "Reykjavik"
+            "location": "San Francisco"
         }
     ],
     "welcomeMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing " +
@@ -27,6 +27,32 @@ var bio = {
     "display": function () {}
 };
 
-
-
+var education = {
+    "schools": [
+        {
+            "name": "Nova Southeastern University",
+            "location": "Fort Lauderdale, FL",
+            "degree":   "Masters",
+            "majors":   "CS",
+            "dates":    2013,
+            "url":  "www.nova.edu"
+        },
+        {
+            "name": "Eckerd Collage",
+            "location": "Saint Petersburg, FL",
+            "degree":   "BA",
+            "majors":   "CS",
+            "dates":    2003,
+            "url":  "www.eckerd.edu"
+        }
+    ],
+    "onlineCourses":    [
+        {
+            "title": "Javascript Crash Course",
+            "school": "Udacity",
+            "dates": "2014",
+            "url" : "http://www.udacity.com/course/ud804"
+        }
+    ]
+}
 
